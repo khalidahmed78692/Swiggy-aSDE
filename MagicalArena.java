@@ -1,9 +1,9 @@
 public class MagicalArena {
-    private int health, attribute, strength;
+    private int health, strength, attack;
 
-    MagicalArena(int health, int attribute, int strength) {
+    MagicalArena(int health, int strength, int attack) {
         this.health = health;
-        this.attribute = attribute;
         this.strength = strength;
+        this.attack = attack;
     }
 }
